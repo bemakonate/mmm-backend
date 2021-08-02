@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_defaults_skill_facts",
+  "info": {
+    "name": "skillFact",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "skillStatistic": {
+      "type": "string"
+    },
+    "skillStatisticLabel": {
+      "type": "string"
+    },
+    "skillContent": {
+      "type": "text"
+    }
+  }
+}

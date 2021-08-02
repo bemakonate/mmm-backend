@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "missionSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "defaults.section"
+    },
+    "solutionSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "defaults.section"
+    },
+    "socialMediaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "defaults.section"
+    },
+    "skill1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "defaults.skill-fact"
+    },
+    "skill2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "defaults.skill-fact"
+    },
+    "socialMediaLink": {
+      "type": "string"
+    }
+  }
+}

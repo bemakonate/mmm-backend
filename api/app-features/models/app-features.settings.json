@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_features",
+  "info": {
+    "name": "App Features"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "therapySectionText": {
+      "type": "text",
+      "required": true
+    },
+    "chatsSectionText": {
+      "type": "text",
+      "required": true
+    },
+    "statusReportSectionText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
